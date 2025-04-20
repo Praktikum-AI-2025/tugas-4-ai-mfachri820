@@ -44,6 +44,7 @@ def solution_05():
     train_generator= ImageDataGenerator(rescale=1./255)
     
     # YOUR CODE HERE
+    
 
     model=tf.keras.models.Sequential([
         # YOUR CODE HERE, end with a Neuron Dense, activated by sigmoid
